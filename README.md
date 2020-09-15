@@ -20,7 +20,7 @@ https://wikky2012.github.io/NewsPreview/
 
 * git clone ```https://github.com/wikky2012/NewsPreview.git```
 
-* cd PasswordLocker
+* cd NewsPreview
 
 * code . or atom . depending on the text editor of your choise.
 
