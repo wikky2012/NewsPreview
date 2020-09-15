@@ -9,7 +9,7 @@
 This project is an application that consume NEWS API to get trening news. 
 
 ## Screenshot
-<img src=https://github.com/wikky2012/PasswordLocker/blob/gh-pages/images/Screenshot%20from%202020-09-07%2022-55-32.png width="800px" height="440px">
+<img src=https://github.com/wikky2012/NewsPreview/blob/gh-pages/screenshot/Screenshot%20from%202020-09-15%2022-47-06.png width="800px" height="440px">
 
 ## Live Page 
 https://wikky2012.github.io/NewsPreview/
