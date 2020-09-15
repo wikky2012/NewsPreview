@@ -1,14 +1,20 @@
 {% macro displayNewsList(news_list) %}
-
     {% for news in news_list %}
-    <img src = "{{news.urlToImage}}" alt = "{{news.title}}" height="200" width="200" class="img-responsive">
-    {{news.description}}<br>
-    {{news.content}}<br>
+    <div class="row  bg-secondary border border-bottom-10 ">
+     <div class="col-md-4">
+    <h4 class="text-center text-white">
+        {{news.title}}
+    </h4>
+    </div>
+    <div class="col-md-4">
+    <img src = "{{news.urlToImage}}" alt = "{{news.title}}" height="200" width="350">
+    </div>
+   <div class="col-md-4">
+    {{news.description}}
+    {{news.content}}
     {{news.publishedAt}}
-    <h3 class="text-center">
-                <a href="/news/{{news.title}}">
-                    {{ news.title|truncate(10)}}</a>
-            </h3>
+    </div>
+   
+    </div>
     {% endfor %}
-
 {% endmacro %}
